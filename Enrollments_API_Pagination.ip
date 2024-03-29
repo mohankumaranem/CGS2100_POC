@@ -38,7 +38,7 @@ def get_all_data(api_url, headers):
 def main():
     # Define API URL and bearer token
     api_url = "https://usflearn.instructure.com/api/v1/courses/1857108/enrollments"
-    bearer_token = "13~lPlsn4ULV17CiebUIW5uIA1QoR4bcBJnMOFHU3wagAleGhkCQ3N7XM0ubPMIK4LT"
+    bearer_token = "<Bearer_Token>"
 
     # Define headers with bearer token authentication
     headers = {"Authorization": f"Bearer {bearer_token}"}
